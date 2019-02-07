@@ -61,25 +61,15 @@ body{
     background: #fee600;
     bottom: 0;
 }
-/*
-.germany-flag > .left-red {
+.container > .upper-main > .german-building{
     position: absolute;
-    width: 30%;
-    height: 100%;
-    background: #bf0a32;
-}
-.germany-flag > .white {
-    position: absolute;
-    width: 40%;
-    height: 100%;
-}
-.germany-flag > .right-red {
-    position: absolute;
+    width: 50%;
+    height: 60%;
     right: 0;
-    width: 30%;
-    height: 100%;
-    background: #bf0a32;
-}*/
+    bottom: 5%;
+    background: url("https://res.cloudinary.com/dc9kfp5gt/image/upload/v1549533642/Screenshot_2019-02-07_at_10.59.51_AM_elgset.png");
+    background-repeat: no-repeat;
+}
 .container > .german{
     position: absolute;
     width: 30%;
