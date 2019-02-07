@@ -227,7 +227,7 @@ body{
     left: 25%;
     top: 50%;
     background: #ffffff;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 30px 30px;
 }
 .container > .german > .l-elbow { 
     position: absolute;
@@ -351,51 +351,47 @@ body{
 }
 .container > .german > .german-tip {
     position: absolute;
-    height: 5%;
-    width: 56%;
-    left: 22%;
-    top: 76%;
-    background: #c49869;
-    border-radius: 100px;
+    height: 10%;
+    width: 50%;
+    left: 25%;
+    top: 72%;
+    background: #000000;
+    border-radius:  0 0 30px 30px;
 }
 .container > .german > .left-lap{
     position: absolute;
-    height: 9%;
+    height: 6%;
     width: 12%;
     left: 30%;
-    bottom: 10%;
-    background: #ffffff;
-    border-radius: 0 0 30px 30px;
+    bottom: 13%;
+    background: #000000;
     z-index: 4;
 }
 .container > .german > .right-lap{
     position: absolute;
-    height: 9%;
+    height: 6%;
     width: 12%;
     right: 30%;
-    bottom: 10%;
-    background: #ffffff;
-    border-radius: 0 0 30px 30px;
+    bottom: 13%;
+    background: #000000;
     z-index: 4;
 }
 .container > .german > .left-lap-tip {
     position: absolute;
     height: 3%;
-    width: 12%;
-    left: 30%;
+    width: 6%;
+    left: 33%;
     bottom: 10%;
-    background: #aa6a27;
-    border-radius: 0 0 30px 30px;
+    background: #ffcc8a;
     z-index: 4;
 }
 .container > .german > .right-lap-tip {
     position: absolute;
     height: 3%;
-    width: 12%;
-    right: 30%;
+    width: 6%;
+    right: 33%;
     bottom: 10%;
-    background: #aa6a27;
-    border-radius: 0 0 30px 30px;
+    background: #ffcc8a;
     z-index: 4;
 }
 .container > .german > .left-leg{
