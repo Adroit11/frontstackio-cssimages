@@ -1,0 +1,684 @@
+*{margin: 0; padding: 0;}
+body{
+    background: #daf2f4;
+    font-family: 'Fjalla One', sans-serif;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    margin: 2% auto;
+}
+.upper-main{
+    padding: 50px;
+}
+.country-name{
+    color: #bf0a32;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+}
+.country-banner{
+    
+}
+.country-flag{
+    width: 17%;
+    height: 10%;
+    position: absolute;
+    left: 15.5%;
+}
+.county-welcome{
+    position: absolute;
+    left: 32.5%;
+    font-size: 1.5em;
+    color: #5b5a5f;
+    padding: 0 20px;
+}
+.county-welcome > span{
+    display: block;
+}
+.county-welcome >span.year{
+    color: #341d31;
+    font-size: 2em;
+}
+.canada-flag{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+.canada-flag > .left-red {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: #bf0a32;
+}
+.canada-flag > .white {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+.canada-flag > .right-red {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: #bf0a32;
+}
+.container > .canadian{
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    bottom: 5%;
+    z-index: 3;
+}
+.container > .canadian > .canadian-head {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    left: 25%;
+    top: 5%;
+    border-radius: 50% 50% 10% 10%;
+    background: #921703;
+}
+.container > .canadian > .canadian-face {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    top: 20%;
+    background: #f69ca8;
+    border-radius: 10%;
+}
+.container > .canadian > .canadian-face > .l-eye {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 9%;
+    height: 13%;
+    background: #510814;
+    border-radius: 150px;
+    z-index: 2;
+}
+.container > .canadian > .canadian-face > .l-inner-eye {
+    position: absolute;
+    top: 42%;
+    left: 27%;
+    width: 3%;
+    height: 4%;
+    background: #ffffff;
+    border-radius: 100px;
+    z-index: 3;
+}
+.container > .canadian > .canadian-face > .r-eye {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    width: 9%;
+    height: 13%;
+    background: #510814;
+    border-radius: 150px;
+    z-index: 2;
+}
+.container > .canadian > .canadian-face > .nose {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 9%;
+    height: 13%;
+    background: #ce5557;
+    border-radius: 150px;
+    z-index: 3;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.container > .canadian > .canadian-face > .hair {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 9%;
+    height: 13%;
+    background: #ffd400;
+    border-radius: 150px;
+    transform: rotate(210deg);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.container > .canadian > .canadian-face > .hair2 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 20%;
+    height: 14%;
+    background: #ffd400;
+    border-radius: 150px;
+    transform: rotate(200deg);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.container > .canadian > .canadian-face > .mouth {
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    width: 14%;
+    height: 5%;
+    background: #ffffff;
+    border: 2px solid #ce5557;
+    border-radius: 50px;
+    z-index: 3;
+}
+.container > .canadian > .canadian-face > .r-inner-eye {
+    position: absolute;
+    top: 42%;
+    right: 27%;
+    width: 3%;
+    height: 4%;
+    background: #ffffff;
+    border-radius: 100px;
+    z-index: 3;
+}
+.container > .canadian > .hat-ban {
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    left: 20%;
+    top: 15%;
+    background: #aa6a27;
+    z-index: 2;
+    border-radius: 50% 50% 0 0;
+}
+.container > .canadian > .left-hat-ear {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background: #aa6a27;
+    left: 20%;
+    top: 20%;
+    z-index: 2;
+    border-radius: 40% 40% 0 0;
+}
+.container > .canadian > .right-hat-ear {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background: #aa6a27;
+    right: 20%;
+    top: 20%;
+    z-index: 2;
+    border-radius: 40% 40% 0 0;
+}
+.container > .canadian > .left-hat-tip {
+    position: absolute;
+    height: 13%;
+    width: 15%;
+    background: #aa6a27;
+    right: 18%;
+    top: 26%;
+    z-index: 2;
+    border-radius: 30% 30% 50% 50%;
+}
+.container > .canadian > .right-hat-tip {
+    position: absolute;
+    height: 13%;
+    width: 15%;
+    background: #aa6a27;
+    left: 18%;
+    top: 26%;
+    z-index: 2;
+    border-radius: 30% 30% 50% 50%;
+}
+.container > .canadian > .canadian-neck {
+    position: absolute;
+    height: 5%;
+    width: 20%;
+    left: 39%;
+    top: 45%;
+    z-index: 4;
+    background: #921703;
+    border-radius: 20%;
+} 
+.container > .canadian > .canadian-neck > .h-line{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background: #b55d4e;
+    left: 25%;
+}
+.container > .canadian > .canadian-neck > .h-line2{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background: #b55d4e;
+    left: 10%;
+}
+.container > .canadian > .canadian-body {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    left: 25%;
+    top: 50%;
+    background: #aa6a27;
+    border-radius: 10px 10px 0 0;
+}
+.container > .canadian > .l-elbow { 
+    position: absolute;
+    height: 5%;
+    width: 10%;
+    left: 16%;
+    top: 52%;
+    background: #921703;
+    transform: rotate(-8deg);
+    z-index: -1;
+    border-radius: 50px 0 0 10px;
+}
+.container > .canadian > .l-hand {
+    position: absolute;
+    height: 20%;
+    width: 8%;
+    left: 13%;
+    top: 53%;
+    background: #921703;
+    border-radius: 80px 0 50px 50px;
+    transform: rotate(6deg);
+}
+.container > .canadian > .r-hand {
+    position: absolute;
+    height: 20%;
+    width: 8%;
+    right: 13%;
+    top: 53%;
+    background: #921703;
+    border-radius: 0 80px 50px 50px;
+    transform: rotate(-6deg);
+}
+.container > .canadian > .l-finger {
+    position: absolute;
+    top: 71%;
+    left: 11%;
+    bottom: 0;
+    width: 8%;
+    height: 6%;
+    border-radius: 60px;
+    background: #aa6a27;
+}
+.container > .canadian > .r-finger {
+    position: absolute;
+    top: 71%;
+    right: 11%;
+    bottom: 0;
+    width: 8%;
+    height: 6%;
+    border-radius: 60px;
+    background: #aa6a27;
+}
+.container > .canadian > .r-elbow {
+    position: absolute;
+    height: 5%;
+    width: 10%;
+    right: 16%;
+    top: 52%;
+    background: #921703;
+    transform: rotate(8deg);
+    z-index: -1;
+    border-radius: 0 50px 10px  0;
+}
+.container > .canadian > .canadian-body > .liner{
+    position: absolute;
+    left: 40%;
+    margin: 0 auto;
+    background: #921703;
+    width: 15%;
+    height: 87%;
+    z-index: 2;
+}
+.container > .canadian > .canadian-body > .colar{
+    position: absolute;
+    margin: 0 auto;
+    left: 23%;
+    background: #c49869;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+}
+.container > .canadian > .canadian-body > .tie-head {
+    position: absolute;
+    top: -3%;
+    right: 32%;
+    margin: 0 auto;
+    background: #921703;
+    width: 10%;
+    height: 25%;
+    transform: rotate(-26deg);
+    z-index: 2;
+    border-radius: 0 0 30px 0;
+}
+.container > .canadian > .canadian-body > .tie {
+    position: absolute;
+    top: 10%;
+    right: 32%;
+    margin: 0 auto;
+    background: #921703;
+    width: 10%;
+    height: 25%;
+    z-index: 2;
+    transform: rotate(6deg);
+    border-radius: 0 0 30px 0;
+}
+.container > .canadian > .canadian-body > .tie > .line {
+    position: absolute;
+    background: #b55d4e;
+    width: 100%;
+    height: 10%;
+    margin: 10px 0 0 0;
+    z-index: 2;
+}
+.container > .canadian > .l-hand > .line,  .container > .canadian > .r-hand > .line{
+    position: absolute;
+    background: #aa6a27;
+    width: 100%;
+    height: 10%;
+    margin: 20px 0 0 0;
+    z-index: 2;
+}
+.container > .canadian > .canadian-tip {
+    position: absolute;
+    height: 5%;
+    width: 56%;
+    left: 22%;
+    top: 76%;
+    background: #c49869;
+    border-radius: 100px;
+}
+.container > .canadian > .left-lap{
+    position: absolute;
+    height: 9%;
+    width: 12%;
+    left: 30%;
+    bottom: 10%;
+    background: #921703;
+    border-radius: 0 0 30px 30px;
+    z-index: 4;
+}
+.container > .canadian > .right-lap{
+    position: absolute;
+    height: 9%;
+    width: 12%;
+    right: 30%;
+    bottom: 10%;
+    background: #921703;
+    border-radius: 0 0 30px 30px;
+    z-index: 4;
+}
+.container > .canadian > .left-lap-tip {
+    position: absolute;
+    height: 3%;
+    width: 12%;
+    left: 30%;
+    bottom: 10%;
+    background: #aa6a27;
+    border-radius: 0 0 30px 30px;
+    z-index: 4;
+}
+.container > .canadian > .right-lap-tip {
+    position: absolute;
+    height: 3%;
+    width: 12%;
+    right: 30%;
+    bottom: 10%;
+    background: #aa6a27;
+    border-radius: 0 0 30px 30px;
+    z-index: 4;
+}
+.container > .canadian > .left-leg{
+    position: absolute;
+    height: 8%;
+    width: 6%;
+    left: 33%;
+    bottom: 2.5%;
+    background: #921703;
+    z-index: 4;
+}
+.container > .canadian > .l-band{
+    position: absolute;
+    width: 6%;
+    height: 1%;
+    left: 33%;
+    background: #aa6a27;
+    z-index: 5;
+    bottom: 8%;
+}
+.container > .canadian > .r-band{
+    position: absolute;
+    width: 6%;
+    height: 1%;
+    right: 33%;
+    background: #aa6a27;
+    z-index: 5;
+    bottom: 8%;
+}
+.container > .canadian > .right-leg{
+    position: absolute;
+    height: 8%;
+    width: 6%;
+    right: 33%;
+    bottom: 2.5%;
+    background: #921703;
+    z-index: 4;
+}
+.container > .canadian > .left-shoe {
+    position: absolute;
+    height: 6%;
+    width: 20%;
+    left: 19%;
+    bottom: 0;
+    background: #921703;
+    z-index: 4;
+    border-radius: 50px 0 0 0;
+}
+.container > .canadian > .right-shoe {
+    position: absolute;
+    height: 6%;
+    width: 20%;
+    right: 19%;
+    bottom: 0;
+    background: #921703;
+    z-index: 4;
+    border-radius: 0 50px 0 0;
+}
+.container > .canadian > .left-sow {
+    position: absolute;
+    height: 1%;
+    width: 20%;
+    left: 19%;
+    bottom: 0;
+    background: #aa6a27;
+    z-index: 4;
+}
+.container > .canadian > .right-sow {
+    position: absolute;
+    height: 1%;
+    width: 20%;
+    right: 19%;
+    bottom: 0;
+    background: #aa6a27;
+    z-index: 4;
+}
+.container > .upper-main > .hill {
+    position: absolute;
+    bottom: 10%;
+    width: 30%;
+    height: 35%;
+    right: 15%;
+    background: #6caa01;
+    z-index: 1;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.container > .upper-main > .hill2 {
+    position: absolute;
+    bottom: 10%;
+    width: 30%;
+    height: 25%;
+    right: 30%;
+    background: #6caa01;
+    z-index: 3;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.container > .upper-main > .hill-div {
+    position: absolute;
+    bottom: 23%;
+    width: 30%;
+    height: 15%;
+    right: 23%;
+    z-index: 1;
+    transform: rotate(-82deg);
+    background: #b5d580;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 91% 100%);
+    clip-path: polygon(0 0, 0% 100%, 91% 100%);
+}
+.container > .upper-main > .hill-div2 {
+    position: absolute;
+    bottom: 15%;
+    width: 20%;
+    height: 15%;
+    left: 36.8%;
+    z-index: 3;
+    transform: rotate(-87.5deg);
+    background: #b5d580;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 91% 100%);
+    clip-path: polygon(0 0, 0% 100%, 91% 100%);
+}
+.container > .upper-main > .hill-top {
+    width: 10%;
+    height: 16%;
+    left: 49.9%;
+    bottom: 27.3%;
+    background: #ffffff;
+    z-index: 5;
+    position: absolute;
+    -webkit-clip-path: polygon(52% 51%, 0 100%, 100% 100%);
+    clip-path: polygon(52% 51%, 0 100%, 100% 100%);
+}
+.container > .upper-main > .hill-top2 {
+    width: 8.5%;
+    height: 16%;
+    right: 26%;
+    top: 47%;
+    background: #ffffff;
+    z-index: 5;
+    position: absolute;
+    -webkit-clip-path: polygon(52% 51%, 0 100%, 100% 100%);
+    clip-path: polygon(52% 51%, 0 100%, 100% 100%);
+}
+.container > .upper-main > .hill-drop {
+    position: absolute;
+    width: 1.5%;
+    height: 4%;
+    left: 53.9%;
+    bottom: 25%;
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    z-index: 4;
+    transform: rotate(180deg);
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.container > .upper-main > .hill-drop2 {
+    position: absolute;
+    width: 1.5%;
+    height: 6%;
+    left: 57%;
+    bottom: 23%;
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    z-index: 4;
+    transform: rotate(180deg);
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.container > .upper-main > .hill-drop3 {
+    position: absolute;
+    width: 1.5%;
+    height: 6%;
+    right: 30%;
+    bottom: 33%;
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    z-index: 4;
+    transform: rotate(180deg);
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.container > .footer{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    bottom: 5%;
+    background: #08a6ac;
+    text-align: center;
+}
+.marple{
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    width: 70%;
+    height: 30%;
+}
+.right-top-marple{
+    position: absolute;
+    top: -18%;
+    left: 10%;
+    width: 25%;
+    height: 50%;
+    z-index: 2;
+    background: #921703;
+    transform: rotate(-65deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+
+}
+.middle-marple{
+    position: absolute;
+    top: -47%;
+    left: 20%;
+    width: 45%;
+    height: 70%;
+    z-index: 3;
+    background: #921703;
+    transform: rotate(5deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 68% 81%, 68% 100%, 55% 100%, 36% 100%, 36% 77%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 68% 81%, 68% 100%, 55% 100%, 36% 100%, 36% 77%, 2% 35%, 31% 43%);
+}
+.left-top-marple{
+    position: absolute;
+    top: -13%;
+    left: 40%;
+    width: 35%;
+    height: 50%;
+    z-index: 2;
+    background: #921703;
+    transform: rotate(65deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+}
+.marple-bottom{
+    position: absolute;
+    top: -13%;
+    left: 27%;
+    width: 30%;
+    height: 60%;
+    background: #921703;
+    z-index: 3;
+    -webkit-clip-path: polygon(51% 35%, 61% 35%, 89% 35%, 84% 60%, 92% 100%, 50% 97%, 9% 100%, 18% 58%, 11% 34%, 39% 35%);
+    clip-path: polygon(51% 35%, 61% 35%, 89% 35%, 84% 60%, 92% 100%, 50% 97%, 9% 100%, 18% 58%, 11% 34%, 39% 35%);
+}
+.cap-hold{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 20%;
+}
+span.adroit{
+    font-size: 0.6em;
+    color: #ffffff;
+    font-weight: 100;
+}

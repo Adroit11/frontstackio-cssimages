@@ -1,0 +1,252 @@
+body{
+    background: #ffffff;
+}
+.container{
+    width: 90%;
+}
+.left-flag{
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 5%;
+    height: 70%;
+}
+.left-flag-pole-cap{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 7%;
+    height: 3%;
+    border-radius: 30%;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    transform: rotate(-7deg);
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    background-blend-mode: normal,color-burn;
+}
+.left-flag-pole{
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    width: 3%;
+    height: 90%;
+    border: 2px solid #cccccc;
+    z-index: 1;
+    transform: rotate(-7deg);
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+.flag-hold{
+    width: 110%;
+    margin: 30px 0 0 0;
+    height: 50%;
+    background: #138448;
+}
+.left-green{
+    position: absolute;
+    top: 9.5%;
+    left: 13%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #138448;
+    border-radius: 0 30px 0 0;
+    background: #138448;
+    z-index: 4;
+    transform: rotate(-7deg);
+}
+.green-curve{
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    left: 30.5%;
+    top: 42%;
+    background: #0b2f18;
+    z-index: 1;
+    -webkit-clip-path: circle(31.2% at 0 69%);
+    clip-path: circle(31.2% at 0 69%);
+    transform: rotate(-3deg);
+}
+.white{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    transform: rotate(-4deg);
+}
+.right-green{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #138448;
+    border-radius: 20px 10px 10px 0;
+    background: #138448;
+    z-index: 4;
+    transform: rotate(-2deg);
+}
+.green-curve2{
+    position: absolute;
+    width: 10%;
+    height: 9%;
+    left: 42.5%;
+    top: 49%;
+    background: #0b2f18;
+    z-index: 1;
+    -webkit-clip-path: circle(31.2% at 100% 69%);
+    clip-path: circle(31.2% at 100% 69%);
+    transform: rotate(-2deg);
+}
+.right-flag{
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    right: 5%;
+    height: 70%;
+}
+.right-flag-pole-cap{
+    position: absolute;
+    top: 2.5%;
+    right: 5%;
+    width: 7%;
+    height: 3%;
+    border-radius: 30%;
+    border: 1px solid #cccccc;
+    z-index: 2;
+    transform: rotate(7deg);
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    background-blend-mode: normal,color-burn;
+}
+.right-flag-pole{
+    position: absolute;
+    top: 5%;
+    right: 13%;
+    width: 3%;
+    height: 90%;
+    border: 2px solid #cccccc;
+    z-index: 1;
+    transform: rotate(7deg);
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+}
+.right-flag-hold{
+    width: 110%;
+    margin: 30px 0 0 0;
+    height: 50%;
+    background: #f60001;
+}
+.right-red{
+    position: absolute;
+    top: 9.5%;
+    right: 13%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #f60001;
+    border-radius: 30px 0 0 0;
+    background: #f60001;
+    z-index: 4;
+    transform: rotate(7deg);
+}
+.left-red{
+    position: absolute;
+    top: 10%;
+    right: 48%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #f60001;
+    border-radius: 10px 20px 0 10px;
+    background: #f60001;
+    z-index: 4;
+    transform: rotate(2deg);
+}
+.canada-white{
+    position: absolute;
+    top: 13%;
+    right: 30%;
+    width: 20%;
+    height: 44.8%;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    transform: rotate(4deg);
+}
+.canada-curve{
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    right: 30.5%;
+    top: 42%;
+    background: #9a0100;
+    z-index: 1;
+    -webkit-clip-path: circle(31.2% at 100% 69%);
+    clip-path: circle(31.2% at 100% 69%);
+    transform: rotate(3deg);
+}
+.canada-curve2{
+    position: absolute;
+    width: 10%;
+    height: 9%;
+    right: 42.5%;
+    top: 49%;
+    background: #9a0100;
+    z-index: 1;
+    -webkit-clip-path: circle(31.2% at 0 69%);
+    clip-path: circle(31.2% at 0 69%);
+    transform: rotate(-2deg);
+}
+.marple{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 70%;
+    height: 30%;
+    transform: rotate(4deg);
+}
+.right-top-marple{
+    position: absolute;
+    top: -18%;
+    left: -23%;
+    width: 55%;
+    height: 50%;
+    z-index: 2;
+    background: #f60001;
+    transform: rotate(-65deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+
+}
+.middle-marple{
+    position: absolute;
+    top: -47%;
+    left: 10%;
+    width: 75%;
+    height: 70%;
+    z-index: 3;
+    background: #f60001;
+    transform: rotate(5deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 68% 81%, 68% 100%, 55% 100%, 36% 100%, 36% 77%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 68% 81%, 68% 100%, 55% 100%, 36% 100%, 36% 77%, 2% 35%, 31% 43%);
+}
+.left-top-marple{
+    position: absolute;
+    top: -13%;
+    left: 60%;
+    width: 55%;
+    height: 50%;
+    z-index: 2;
+    background: #f60001;
+    transform: rotate(65deg);
+    -webkit-clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+    clip-path: polygon(50% 0%, 68% 41%, 98% 35%, 84% 65%, 70% 100%, 55% 100%, 31% 100%, 18% 68%, 2% 35%, 31% 43%);
+}
+.marple-bottom{
+    position: absolute;
+    top: -13%;
+    left: 10%;
+    width: 70%;
+    height: 60%;
+    background: #f60001;
+    z-index: 3;
+    -webkit-clip-path: polygon(51% 35%, 61% 35%, 89% 35%, 84% 60%, 92% 100%, 50% 97%, 9% 100%, 18% 58%, 11% 34%, 39% 35%);
+    clip-path: polygon(51% 35%, 61% 35%, 89% 35%, 84% 60%, 92% 100%, 50% 97%, 9% 100%, 18% 58%, 11% 34%, 39% 35%);
+}
