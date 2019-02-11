@@ -54,6 +54,15 @@ body{
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
+.container > .upper-main > .japan-building {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    right: 0;
+    bottom: 5%;
+    background: url("https://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,h_512,q_100,w_512/v1549895981/bcf02934d42780d2c2ff18344a4ff793-pagoda-japanese-house-by-vexels_tubkp2.png");
+    background-repeat: no-repeat;
+}
 .container > .japan-image{
     position: absolute;
     width: 30%;
