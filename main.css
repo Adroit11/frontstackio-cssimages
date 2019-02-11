@@ -54,3 +54,246 @@ body{
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
+.container > .japan-image{
+    position: absolute;
+    width: 30%;
+    height: 55%;
+    bottom: 5%;
+}
+.container > .japan-image > .japan-head {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    top: 2%;
+}
+.container > .japan-image > .japan-head >  .japan-face > .left-eye {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    border-radius: 0 0 50px 50px;
+    border-bottom: 2px solid #000000;
+    top: 40%;
+    left: 15%;
+}
+.container > .japan-image > .japan-head >  .japan-face > .right-eye {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    border-radius: 0 0 50px 50px;
+    border-bottom: 2px solid #000000;
+    top: 40%;
+    right: 15%;
+}
+.container > .japan-image > .japan-head > .japan-hair-top {
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    left: 30%;
+    background: #000000;
+    border-radius: 20px 20px 10px 10px;
+}
+.container > .japan-image > .japan-head > .japan-hair-lowwer {
+    position: absolute;
+    width: 60%;
+    height: 18%;
+    left: 20%;
+    top: 15%;
+    background: #000000;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 3;
+}
+.container > .japan-image > .japan-head > .japan-hair-left {
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 7.5%;
+    top: 30%;
+    transform: rotate(105deg);
+    background: #000000;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 3;
+}
+.container > .japan-image > .japan-head > .japan-hair-right {
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    right: 7.5%;
+    top: 30%;
+    transform: rotate(80deg);
+    background: #000000;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 3;
+}
+.container > .japan-image > .japan-head > .japan-face {
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    left: 22%;
+    top: 30%;
+    border: 1px solid #f9a570;
+    background: #ffbc86;
+    border-radius: 0 0 40px 40px;
+    z-index: 2;
+}
+.container > .japan-image > .japan-body {
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    top: 28%;
+    left: 30%;
+    background: #ffbc86;
+}
+.container >.japan-image >.japan-body > .left-chest {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 2px solid #f9a570;
+    left: 10%;
+    top: 30%;
+}
+.container >.japan-image >.japan-body > .right-chest {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 2px solid #f9a570;
+    right: 10%;
+    top: 30%;
+}
+.container > .japan-image > .japan-body > .left-arm{
+    position: absolute;
+    width: 60%;
+    top: 6.5%;
+    height: 40%;
+    left: -45%;
+    background: #ffbc86;
+    border-radius: 30px;
+    transform: rotate(-30deg);
+}
+.container > .japan-image > .japan-body > .right-arm{
+    position: absolute;
+    width: 60%;
+    top: 6.5%;
+    height: 40%;
+    right: -45%;
+    background: #ffbc86;
+    border-radius: 30px;
+    transform: rotate(30deg);
+}
+.container > .japan-image > .japan-body > .left-hand{
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    height: 70%;
+    left: -38%;
+    background: #ffbc86;
+    transform: rotate(-10deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+.container > .japan-image > .japan-body > .right-hand{
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    height: 70%;
+    right: -38%;
+    background: #ffbc86;
+    transform: rotate(10deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+.container > .japan-image > .japan-body > .left-lap {
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    border-radius: 30px 0 0 0;
+    bottom: -50%;
+    left: -50%;
+    transform: rotate(-10deg);
+    background: #ffbc86;
+}
+.container > .japan-image > .japan-body > .right-lap {
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    border-radius: 0 30px 0 0;
+    bottom: -50%;
+    right: -50%;
+    background: #ffbc86;
+    transform: rotate(10deg);
+}
+.container > .japan-image > .japan-body > .left-leg {
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    bottom: -110%;
+    left: -44%;
+    background: #ffbc86;
+    transform: rotate(-10deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
+}
+.container > .japan-image > .japan-body > .right-leg {
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    bottom: -110%;
+    right: -44%;
+    background: #ffbc86;
+    transform: rotate(10deg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
+}
+.container >.japan-image >.japan-body > .left-feet {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    left: -55%;
+    bottom: -120%;
+    background: #ffbc86;
+    border-radius: 40px 0 10px 10px;
+    transform: rotate(-10deg);
+}
+.container >.japan-image >.japan-body > .right-feet {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    right: -55%;
+    bottom: -120%;
+    background: #ffbc86;
+    border-radius: 0 40px 10px 10px;
+    transform: rotate(10deg);
+}
+.container > .japan-image > .japan-body > .belt {
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    bottom: -40%;
+    left: -4%;
+    background: #004049;
+    transform: rotate(10deg);
+    border-radius: 0 0 0 40px;
+    z-index: 4;
+}
+.container > .japan-image > .japan-body > .belt2 {
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    bottom: -40%;
+    right: -4%;
+    background: #004049;
+    transform: rotate(170deg);
+    border-radius: 40px 0 0 0;
+    z-index: 4;
+}
+.container > .japan-image > .japan-body > .belt-mid {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    bottom: -55%;
+    left: 15%;
+    background: #004049;
+    z-index: 5;
+}
