@@ -12,7 +12,7 @@ body{
     padding: 50px;
 }
 .country-name{
-    color: #ce001f;
+    color: #006632;
     font-size: 3em;
     letter-spacing: 0.2em;
 }
@@ -39,270 +39,84 @@ body{
     color: #341d31;
     font-size: 2em;
 }
-.japan-flag{
+.nigeria-flag{
     width: 100%;
     height: 100%;
     background: #ffffff;
 }
-.middle-circle{
+.container > .upper-main > .country-banner > .country-flag > .nigeria-flag > .left-green {
     position: absolute;
-    top: 17.5%;
-    left: 30%;
-    width: 40%;
-    height: 65%;
-    background: #ce001f;
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
+    left: 0;
+    width: 33%;
+    height: 100%;
+    background: #006632;
 }
-.container > .upper-main > .japan-building {
+.container > .upper-main > .country-banner > .country-flag > .nigeria-flag > .right-green {
     position: absolute;
-    width: 50%;
-    height: 60%;
     right: 0;
-    bottom: 5%;
-    background: url("https://res.cloudinary.com/dc9kfp5gt/image/upload/c_scale,h_512,q_100,w_512/v1549895981/bcf02934d42780d2c2ff18344a4ff793-pagoda-japanese-house-by-vexels_tubkp2.png");
-    background-repeat: no-repeat;
+    width: 33%;
+    height: 100%;
+    background: #006632;
 }
-.container > .japan-image{
-    position: absolute;
-    width: 30%;
-    height: 55%;
-    bottom: 5%;
-}
-.container > .japan-image > .japan-head {
+.container > .election-2019 {
     position: absolute;
     width: 50%;
-    height: 30%;
+    height: 50%;
     left: 25%;
-    top: 2%;
+    bottom: 5%;
+    border: 1px solid;
 }
-.container > .japan-image > .japan-head >  .japan-face > .left-eye {
-    position: absolute;
-    width: 15%;
-    height: 5%;
-    border-radius: 0 0 50px 50px;
-    border-bottom: 2px solid #000000;
-    top: 40%;
-    left: 15%;
-}
-.container > .japan-image > .japan-head >  .japan-face > .right-eye {
-    position: absolute;
-    width: 15%;
-    height: 5%;
-    border-radius: 0 0 50px 50px;
-    border-bottom: 2px solid #000000;
-    top: 40%;
-    right: 15%;
-}
-.container > .japan-image > .japan-head > .japan-hair-top {
+.container > .election-2019 > .ballot {
     position: absolute;
     width: 40%;
-    height: 15%;
+    height: 35%;
     left: 30%;
-    background: #000000;
-    border-radius: 20px 20px 10px 10px;
+    bottom: 0;
+    background: #006632;
+    border-top: 4px solid #00190f;
 }
-.container > .japan-image > .japan-head > .japan-hair-lowwer {
-    position: absolute;
-    width: 60%;
-    height: 18%;
-    left: 20%;
-    top: 15%;
-    background: #000000;
-    border-radius: 20px 20px 20px 20px;
-    z-index: 3;
-}
-.container > .japan-image > .japan-head > .japan-hair-left {
+.container > .election-2019 > .ballot > .middle {
     position: absolute;
     width: 30%;
-    height: 15%;
-    left: 7.5%;
-    top: 30%;
-    transform: rotate(105deg);
-    background: #000000;
-    border-radius: 20px 20px 20px 20px;
-    z-index: 3;
+    height: 100%;
+    left: 35%;
+    bottom: 0;
+    background: #ffffff;
 }
-.container > .japan-image > .japan-head > .japan-hair-right {
+.container > .election-2019 > .ballot-top {
     position: absolute;
-    width: 30%;
-    height: 15%;
-    right: 7.5%;
-    top: 30%;
-    transform: rotate(80deg);
-    background: #000000;
-    border-radius: 20px 20px 20px 20px;
-    z-index: 3;
+    width: 50%;
+    height: 8%;
+    left: 25%;
+    bottom: 35%;
+    background: #006632;
 }
-.container > .japan-image > .japan-head > .japan-face {
+.container > .election-2019 > .ballot-top-cover {
     position: absolute;
-    width: 55%;
-    height: 60%;
-    left: 22%;
-    top: 30%;
-    border: 1px solid #f9a570;
-    background: #ffbc86;
-    border-radius: 0 0 40px 40px;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    bottom: 43%;
+    background: #006632;
+    -webkit-clip-path: polygon(12% 0, 88% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(12% 0, 88% 0, 100% 100%, 0% 100%);
+}
+.container > .election-2019 > .ballot-top-cover > .hole {
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    left: 30%;
+    bottom: 40%;
+    background: #00190f;
+}
+.container > .election-2019 > .papper {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    left: 45%;
+    bottom: 53%;
+    background: #ffffff;
+    border-radius: 0 0 5px 0;
     z-index: 2;
-}
-.container > .japan-image > .japan-body {
-    position: absolute;
-    width: 40%;
-    height: 25%;
-    top: 28%;
-    left: 30%;
-    background: #ffbc86;
-}
-.container >.japan-image >.japan-body > .left-chest {
-    position: absolute;
-    width: 40%;
-    height: 40%;
-    border-radius: 0 0 40px 40px;
-    border-bottom: 2px solid #f9a570;
-    left: 10%;
-    top: 30%;
-}
-.container >.japan-image >.japan-body > .right-chest {
-    position: absolute;
-    width: 40%;
-    height: 40%;
-    border-radius: 0 0 40px 40px;
-    border-bottom: 2px solid #f9a570;
-    right: 10%;
-    top: 30%;
-}
-.container > .japan-image > .japan-body > .left-arm{
-    position: absolute;
-    width: 60%;
-    top: 6.5%;
-    height: 40%;
-    left: -45%;
-    background: #ffbc86;
-    border-radius: 30px;
-    transform: rotate(-30deg);
-}
-.container > .japan-image > .japan-body > .right-arm{
-    position: absolute;
-    width: 60%;
-    top: 6.5%;
-    height: 40%;
-    right: -45%;
-    background: #ffbc86;
-    border-radius: 30px;
-    transform: rotate(30deg);
-}
-.container > .japan-image > .japan-body > .left-hand{
-    position: absolute;
-    width: 30%;
-    top: 35%;
-    height: 70%;
-    left: -38%;
-    background: #ffbc86;
-    transform: rotate(-10deg);
-    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
-}
-.container > .japan-image > .japan-body > .right-hand{
-    position: absolute;
-    width: 30%;
-    top: 35%;
-    height: 70%;
-    right: -38%;
-    background: #ffbc86;
-    transform: rotate(10deg);
-    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
-}
-.container > .japan-image > .japan-body > .left-lap {
-    position: absolute;
-    width: 65%;
-    height: 50%;
-    border-radius: 30px 0 0 0;
-    bottom: -50%;
-    left: -50%;
-    transform: rotate(-10deg);
-    background: #ffbc86;
-}
-.container > .japan-image > .japan-body > .right-lap {
-    position: absolute;
-    width: 65%;
-    height: 50%;
-    border-radius: 0 30px 0 0;
-    bottom: -50%;
-    right: -50%;
-    background: #ffbc86;
-    transform: rotate(10deg);
-}
-.container > .japan-image > .japan-body > .left-leg {
-    position: absolute;
-    width: 35%;
-    height: 70%;
-    bottom: -110%;
-    left: -44%;
-    background: #ffbc86;
-    transform: rotate(-10deg);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 21% 100%);
-}
-.container > .japan-image > .japan-body > .right-leg {
-    position: absolute;
-    width: 35%;
-    height: 70%;
-    bottom: -110%;
-    right: -44%;
-    background: #ffbc86;
-    transform: rotate(10deg);
-    -webkit-clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
-}
-.container >.japan-image >.japan-body > .left-feet {
-    position: absolute;
-    width: 50%;
-    height: 30%;
-    left: -55%;
-    bottom: -120%;
-    background: #ffbc86;
-    border-radius: 40px 0 10px 10px;
-    transform: rotate(-10deg);
-}
-.container >.japan-image >.japan-body > .right-feet {
-    position: absolute;
-    width: 50%;
-    height: 30%;
-    right: -55%;
-    bottom: -120%;
-    background: #ffbc86;
-    border-radius: 0 40px 10px 10px;
-    transform: rotate(10deg);
-}
-.container > .japan-image > .japan-body > .belt {
-    position: absolute;
-    width: 60%;
-    height: 40%;
-    bottom: -40%;
-    left: -4%;
-    background: #004049;
-    transform: rotate(10deg);
-    border-radius: 0 0 0 40px;
-    z-index: 4;
-}
-.container > .japan-image > .japan-body > .belt2 {
-    position: absolute;
-    width: 60%;
-    height: 40%;
-    bottom: -40%;
-    right: -4%;
-    background: #004049;
-    transform: rotate(170deg);
-    border-radius: 40px 0 0 0;
-    z-index: 4;
-}
-.container > .japan-image > .japan-body > .belt-mid {
-    position: absolute;
-    width: 70%;
-    height: 50%;
-    bottom: -55%;
-    left: 15%;
-    background: #004049;
-    z-index: 5;
+    transform: rotate(15deg);
 }
